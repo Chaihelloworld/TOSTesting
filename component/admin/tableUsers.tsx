@@ -94,7 +94,7 @@ const App: React.FC = () => {
                                 data={dataSet}
                                 sortColumn={'firstName'}
                                 defaultSortType={'desc'}>
-                                <Column width={200} fixed>
+                                <Column width={200}>
                                     <HeaderCell>First Name</HeaderCell>
                                     <Cell style={{ textAlign: 'center' }} dataKey="firstName" />
                                 </Column>
