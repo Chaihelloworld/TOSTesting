@@ -1,0 +1,11 @@
+.navStyle{
+  color: rgb(245, 159, 0);
+  font-weight: 650;
+  height: 100px;
+  background: rgb(0,0,0);
+  background: linear-gradient(321deg, rgba(0,0,0,1) 0%, rgba(0,2,41,1) 20%, rgba(0,6,111,1) 36%, rgba(65,65,110,1) 53%, rgba(0,0,0,1) 100%);
+  
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}

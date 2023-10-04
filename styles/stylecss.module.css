@@ -1,0 +1,35 @@
+/* Add this CSS to your stylesheet */
+.center-board-entering {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.center-board-entered {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media (min-width: 992px) {
+  .rs-grid-container {
+    width: 1040px !important;
+  }
+}
+.rs-panel-header {
+font-size: 20px !important;
+font-weight: 600;
+}
+.rs-navbar-default .rs-dropdown .rs-dropdown-toggle:hover, .rs-navbar-default .rs-dropdown.rs-dropdown-open .rs-dropdown-toggle, .rs-navbar-default .rs-navbar-item:hover {
+  background-color: #0000cf00 !important;
+  color: rgb(245, 98, 0) !important;
+}
+
+.bodyStyle{
+  background: rgb(0,0,0) !important;
+  background: linear-gradient(132deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(61,8,92,1) 8%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 100%)!important;
+}
+.bodyAdminStyle{
+  background: #fbedfa !important;
+}
+.rs-input-group{
+  border: none  !important;
+}
