@@ -138,7 +138,7 @@ const App: React.FC = () => {
                                     </Cell>
                                 </Column>
                                 <Column width={200} flexGrow={1}>
-                                    <HeaderCell>Active</HeaderCell>
+                                    <HeaderCell>Action</HeaderCell>
                                     <Cell style={{ textAlign: 'center' }} dataKey="active">
                                         {(rowData) =>
                                             rowData.active ? (
